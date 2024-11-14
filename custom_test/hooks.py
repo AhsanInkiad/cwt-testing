@@ -154,7 +154,7 @@ app_license = "MIT"
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "custom_test.event.get_events"
+#  	"frappe.desk.doctype.event.event.get_events": "custom_test.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
@@ -213,3 +213,6 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"custom_test.auth.validate"
 # ]
+
+
+fixtures = ["Server Script"]
